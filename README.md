@@ -51,3 +51,8 @@ curl -X POST -H "Content-Type: application/json" -d '{
     ]
 }' http://localhost:5000/schedule
 ```
+
+![Schedule](Google_or/schedule_or.png)
+
+
+![Schedule](Dwave/schedule.png)
