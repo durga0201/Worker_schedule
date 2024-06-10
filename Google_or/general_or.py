@@ -101,7 +101,3 @@ def scheduler() -> None:
     print(f"  - branches       : {solver.NumBranches}")
     print(f"  - wall time      : {solver.WallTime} s")
     print(f"  - solutions found: {solution_printer.solutionCount()}")
-
-
-if __name__ == "__main__":
-    scheduler()

@@ -2,8 +2,9 @@ from typing import Union
 from ortools.sat.python import cp_model
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
+import matplotlib
 
-
+matplotlib.use('Agg') 
 def scheduler() -> None:
     # Number of nurses, shifts, and days
     num_nurses = 5
